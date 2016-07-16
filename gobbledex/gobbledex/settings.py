@@ -73,20 +73,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'gobbledex.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'gobbledex',
-        'USER': 'postgres',
-        'PASSWORD':'admin'
-    }
-}
-
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
@@ -105,3 +91,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+import gobbledex._settings
