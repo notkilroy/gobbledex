@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.gis',
     'habitat',
-    'home',
+    'gobblehome',
 )
 
 MIDDLEWARE_CLASSES = (

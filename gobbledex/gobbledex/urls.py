@@ -20,5 +20,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^habitat/', include('habitat.urls', namespace='habitat')),
-    url(r'^', include('home.urls', namespace='home')),
+    url(r'^', include('gobblehome.urls', namespace='home')),
 ]

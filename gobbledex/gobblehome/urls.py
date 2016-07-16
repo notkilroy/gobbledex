@@ -6,7 +6,7 @@ Created on Jul 15, 2016
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from home.views import Index
+from gobblehome.views import Index
 
 
 urlpatterns = [
